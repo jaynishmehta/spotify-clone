@@ -1,0 +1,60 @@
+nav ul{
+  display:flex;
+  align-items:center;
+  list-style-type:none;
+  height:60px;
+  background-color:black;
+  color:white;
+  padding:0px;
+}
+body{
+  background-color:lightyellow;
+}
+.brand img{
+  width:44px;
+  padding:12px;
+}
+.brand{
+  display:flex;
+  align-items:center;
+  font-weight:bolder;
+  font-size:1.3rem;
+  
+}
+nav ul li{
+  padding:0 12px;
+}
+.container{
+  margin:18px auto;
+  min-height:68vh;
+  background-color:black;
+  color:white;
+  font-family:'varela Round',sans-serif;
+  display:flex;
+  width:75%;
+  border-radius:12px;
+  padding:2px;
+  background-image: url()
+}
+.bottom{
+  position:sticky;
+  height:100px;
+  background-color:black;
+  color:white;
+  bottom:2vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  
+}
+.icons{
+  margin-top:14px
+}
+.icons i{
+  cursor:pointer;
+}
+#myprogressbar{
+  width:180vh;
+   
+}
